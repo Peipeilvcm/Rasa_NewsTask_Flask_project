@@ -1,6 +1,7 @@
 import socket,time,math,os
 import sys
 
+from bot import NewsPolicy
 from mobile_models import handle_saying
 
 BUFFER_SIZE = 1500
