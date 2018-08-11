@@ -15,3 +15,4 @@ data文件夹下total_word_feature_extractor.dat需要自己结合场景语料�
 ## 运行机器人python3 bot.py run
 
 ## 运行Flask框架下bot服务器python3 web_flask_main.py
+在web_flask分支中
