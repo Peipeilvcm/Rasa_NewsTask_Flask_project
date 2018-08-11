@@ -1,0 +1,468 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "request_search",
+        "text": "我想看新闻"
+      },
+      {
+        "intent": "request_search",
+        "text": "有什么新闻吗"
+      },
+      {
+        "intent": "request_search",
+        "text": "有什么大事发生吗"
+      },
+      {
+        "intent": "request_search",
+        "text": "看一下新闻吧"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "end": 2,
+            "start": 0,
+            "entity": "time",
+            "value": "今天"
+          }
+        ],
+        "text": "今天有什么新闻"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "end": 5,
+            "start": 3,
+            "entity": "time",
+            "value": "昨天"
+          }
+        ],
+        "text": "我想看昨天的新闻"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "end": 9,
+            "start": 0,
+            "entity": "time",
+            "value": "2018年8月1日"
+          }
+        ],
+        "text": "2018年8月1日有什么新闻"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "end": 11,
+            "start": 0,
+            "entity": "time",
+            "value": "2017年10月10号"
+          }
+        ],
+        "text": "2017年10月10号有什么新闻"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "end": 4,
+            "start": 0,
+            "entity": "time",
+            "value": "7月6号"
+          }
+        ],
+        "text": "7月6号有什么新闻"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "end": 4,
+            "start": 0,
+            "entity": "time",
+            "value": "6月8日"
+          }
+        ],
+        "text": "6月8日有什么新闻"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "end": 5,
+            "start": 0,
+            "entity": "time",
+            "value": "最近10天"
+          }
+        ],
+        "text": "最近10天有没有什么大事发生"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "end": 4,
+            "start": 0,
+            "entity": "item",
+            "value": "人工智能"
+          }
+        ],
+        "text": "人工智能"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "end": 2,
+            "start": 0,
+            "entity": "item",
+            "value": "娱乐"
+          }
+        ],
+        "text": "娱乐"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "end": 2,
+            "start": 0,
+            "entity": "item",
+            "value": "体育"
+          }
+        ],
+        "text": "体育"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "end": 4,
+            "start": 0,
+            "entity": "item",
+            "value": "人工智能"
+          }
+        ],
+        "text": "人工智能新闻"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "end": 2,
+            "start": 0,
+            "entity": "item",
+            "value": "娱乐"
+          }
+        ],
+        "text": "娱乐新闻"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "end": 2,
+            "start": 0,
+            "entity": "item",
+            "value": "体育"
+          }
+        ],
+        "text": "体育新闻"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "end": 7,
+            "start": 3,
+            "entity": "item",
+            "value": "人工智能"
+          }
+        ],
+        "text": "我想看人工智能新闻"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "end": 5,
+            "start": 3,
+            "entity": "item",
+            "value": "娱乐"
+          }
+        ],
+        "text": "我想看娱乐新闻"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "end": 5,
+            "start": 3,
+            "entity": "item",
+            "value": "体育"
+          }
+        ],
+        "text": "我想看体育新闻"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "end": 5,
+            "start": 3,
+            "entity": "item",
+            "value": "娱乐"
+          }
+        ],
+        "text": "有什么娱乐新闻吗"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "end": 5,
+            "start": 3,
+            "entity": "item",
+            "value": "体育"
+          }
+        ],
+        "text": "有什么体育新闻吗"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "end": 7,
+            "start": 3,
+            "entity": "item",
+            "value": "人工智能"
+          }
+        ],
+        "text": "有什么人工智能新闻吗"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "end": 5,
+            "start": 3,
+            "entity": "item",
+            "value": "体育"
+          }
+        ],
+        "text": "有什么体育界的大事发生吗"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "end": 5,
+            "start": 3,
+            "entity": "item",
+            "value": "娱乐"
+          }
+        ],
+        "text": "看一下娱乐新闻吧"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "end": 9,
+            "start": 5,
+            "entity": "item",
+            "value": "人工智能"
+          },
+          {
+            "end": 2,
+            "start": 0,
+            "entity": "time",
+            "value": "今天"
+          }
+        ],
+        "text": "今天有什么人工智能新闻"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "end": 7,
+            "start": 5,
+            "entity": "item",
+            "value": "娱乐"
+          },
+          {
+            "end": 2,
+            "start": 0,
+            "entity": "time",
+            "value": "今天"
+          }
+        ],
+        "text": "今天有什么娱乐新闻"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "end": 8,
+            "start": 6,
+            "entity": "item",
+            "value": "娱乐"
+          },
+          {
+            "end": 5,
+            "start": 3,
+            "entity": "time",
+            "value": "昨天"
+          }
+        ],
+        "text": "我想看昨天的娱乐新闻"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "end": 16,
+            "start": 12,
+            "entity": "item",
+            "value": "人工智能"
+          },
+          {
+            "end": 9,
+            "start": 0,
+            "entity": "time",
+            "value": "2018年8月1日"
+          }
+        ],
+        "text": "2018年8月1日有什么人工智能新闻"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "end": 16,
+            "start": 14,
+            "entity": "item",
+            "value": "体育"
+          }
+        ],
+        "text": "2017年10月10号有什么体育新闻"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "end": 9,
+            "start": 7,
+            "entity": "item",
+            "value": "体育"
+          },
+          {
+            "end": 4,
+            "start": 0,
+            "entity": "time",
+            "value": "7月6号"
+          }
+        ],
+        "text": "7月6号有什么体育新闻"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "end": 11,
+            "start": 9,
+            "entity": "item",
+            "value": "娱乐"
+          },
+          {
+            "end": 8,
+            "start": 3,
+            "entity": "time",
+            "value": "最近10天"
+          }
+        ],
+        "text": "我想看最近10天的娱乐新闻"
+      },
+      {
+        "intent": "greet",
+        "text": "你好"
+      },
+      {
+        "intent": "greet",
+        "text": "您好"
+      },
+      {
+        "intent": "greet",
+        "text": "您好吗"
+      },
+      {
+        "intent": "greet",
+        "text": "嗨"
+      },
+      {
+        "intent": "greet",
+        "text": "喂"
+      },
+      {
+        "intent": "greet",
+        "text": "你是谁"
+      },
+      {
+        "intent": "greet",
+        "text": "您是"
+      },
+      {
+        "intent": "greet",
+        "text": "你是哪个"
+      },
+      {
+        "intent": "greet",
+        "text": "啊"
+      },
+      {
+        "intent": "goodbye",
+        "text": "再见"
+      },
+      {
+        "intent": "goodbye",
+        "text": "拜拜"
+      },
+      {
+        "intent": "goodbye",
+        "text": "很高兴和你说话"
+      },
+      {
+        "intent": "thanks",
+        "text": "谢谢"
+      },
+      {
+        "intent": "thanks",
+        "text": "谢谢您"
+      },
+      {
+        "intent": "thanks",
+        "text": "谢谢你"
+      },
+      {
+        "intent": "thanks",
+        "text": "非常感谢"
+      },
+      {
+        "intent": "thanks",
+        "text": "谢谢啊"
+      },
+      {
+        "intent": "thanks",
+        "text": "谢了"
+      }
+    ],
+    "entity_synonyms": [],
+    "regex_features": []
+  }
+}

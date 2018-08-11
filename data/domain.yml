@@ -1,0 +1,38 @@
+slots:
+  item:
+    type: text
+  time:
+    type: text
+
+intents:
+  - greet
+  - goodbye
+  - thanks
+  - request_search
+
+entities:
+  - item
+  - time
+
+templates:
+  utter_greet:
+    - "您好!，我是BOT，很高兴为您服务。"
+    - "你好!，我是BOT。"
+    - "I am BOT，有什么可以帮您吗。"
+  utter_goodbye:
+    - "再见，为您服务很开心"
+    - "Bye， 下次再见"
+  utter_default:
+    - "您说什么"
+    - "您能再说一遍吗，我没听清"
+  utter_thanks:
+    - "不用谢"
+    - "我应该做的"
+    - "您开心我就开心"
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_default
+  - utter_thanks
+  - bot.ActionSearchNews

@@ -1,0 +1,29 @@
+{
+  "max_histories": [
+    2,
+    5
+  ],
+  "rasa_core": "0.10.4",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "__main__.NewsPolicy"
+  ],
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "time",
+        "item"
+      ]
+    },
+    "utter_goodbye": {
+      "slots": []
+    },
+    "action_search_news": {
+      "slots": []
+    },
+    "utter_greet": {
+      "slots": []
+    }
+  },
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble"
+}
