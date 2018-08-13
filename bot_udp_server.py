@@ -29,9 +29,10 @@ if __name__=='__main__':
         print("waiting on port:",port)
 
         data, client_addr = server.recvfrom(BUFFER_SIZE)
-        print("接收到: ",data)
+        saying = data.decode("utf-8")
+        print("接收到: ",saying)
         
-        res = handle_saying(data.decode("utf-8"))
+        res = handle_saying(saying)
         print("处理结果: ",res)
 
         response(res, client_addr)
