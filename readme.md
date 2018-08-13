@@ -9,7 +9,7 @@ data文件夹下total_word_feature_extractor.dat需要自己结合场景语料�
 动作执行策略选择用LSTM网络训练
 保存至models/dialogue
 
-## 在线训练python3 bot.py online_train
+## 在线训练python3 bot.py train_online
 主要保存为了stroies.md中的对话语料
 
 ## 运行机器人python3 bot.py run
