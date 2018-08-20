@@ -1,2 +1,3 @@
 __pycache__
 .vscode
+data/total_word_feature_extractor.dat
